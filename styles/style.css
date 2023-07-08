@@ -1,3 +1,6 @@
+ *{
+    margin: 0px;
+ }
  /* common shared style  */
  body{
 
@@ -12,6 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -19,35 +23,117 @@ nav{
 font-size: 45px;
 font-weight: 800;}
 
-
-
 nav > ul{
     display: flex;
     align-items: center;
 }
 nav  li{
+    text-align: right;
     list-style: none;
     margin-right: 50px;
-
-
 }
 nav a{
+   
     text-decoration: none;
    color: #474747 ;
 }
 .btn-primary{
-    width: 150px;
-height: 64px;
-    border-radius: 5px;
 background: #FD6E0A;
 color: #fff;
 border: 0;
-border-radius:2px;
+border-radius:5px;
 font-size: 20px;
 font-weight: 700;
-padding: 15px 35pxS;
+padding: 15px 35px;
 }
-footer{
+/* header related style */
+.header {
+    background-color: #FFF8F3;;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+}
+.banner {
+    padding: 30px 30px 0px 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content
+{
+    max-width: 650px;
+}
+.profile-pic{
+    width: 584px;
+    height: 700px;
 
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 5px;
+}
+    .banner-title{
+            color: #181818;
+            font-size: 85px;
+        font-weight: 700;
+        margin-top: 0px;
+}
+.banner-decrip {
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+.btn-margin{
+    margin-top: 30px;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about{
+    margin: 130px 0;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-title{
+  
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+
+}
+.about-info-container{
+display: flex;
+justify-content: space-between;
+}
+.about-info{
     text-align: center;
 }
+
+
+
+
+
+
+
+/* footer{
+
+    text-align: center;
+} */
