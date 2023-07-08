@@ -1,20 +1,53 @@
+ /* common shared style  */
  body{
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif
  }
-
+#one-word-clr{
+color: #FD6E0A;
+}
+/* nav related style */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;}
+
+
 
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav  li{
     list-style: none;
     margin-right: 50px;
+
+
 }
 nav a{
     text-decoration: none;
+   color: #474747 ;
+}
+.btn-primary{
+    width: 150px;
+height: 64px;
+    border-radius: 5px;
+background: #FD6E0A;
+color: #fff;
+border: 0;
+border-radius:2px;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35pxS;
+}
+footer{
+
+    text-align: center;
 }
